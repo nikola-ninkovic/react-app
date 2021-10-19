@@ -1,0 +1,4 @@
+* @nnikola
+*.js @nnikola
+*.yml @nnikola2
+/public/ @nnikola

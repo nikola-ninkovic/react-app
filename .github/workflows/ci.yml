@@ -41,10 +41,10 @@ jobs:
         with:
           name: build
           path: build
-      - name: Create A Release
+      - name: Create a Release
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         run: npx semantic-release
-        env:
+        env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Depoloy to Staging
         if: github.event_name == 'push'

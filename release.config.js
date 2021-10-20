@@ -1,6 +1,6 @@
 module.exports = {
     branches: "master",
-    repositoryUrl: https://github.com/nikola-ninkovic/react-app,
+    repositoryUrl: "https://github.com/nikola-ninkovic/react-app",
     plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
